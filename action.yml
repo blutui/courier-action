@@ -1,0 +1,9 @@
+name: 'Deploy to Blutui with Courier'
+description: 'Deploy your Blutui projects from GitHub using Courier'
+author: 'blutui'
+branding:
+  icon: 'upload-cloud'
+  color: 'blue'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
